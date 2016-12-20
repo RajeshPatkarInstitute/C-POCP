@@ -1,0 +1,65 @@
+#include "stdafx.h"
+using namespace System;
+
+void main()
+{
+	Console::Clear();
+
+	/* Creating Head */
+	Console::SetCursorPosition(10, 10);
+	Console::Write("*");
+	Console::SetCursorPosition(9, 11);
+	Console::Write("*");
+	Console::SetCursorPosition(11, 11);
+	Console::Write("*");
+	Console::SetCursorPosition(10, 12);
+	Console::Write("*");
+
+	/* Creating trunk */
+	Console::SetCursorPosition(10, 13);
+	Console::Write("*");
+	Console::SetCursorPosition(10, 14);
+	Console::Write("*");
+	Console::SetCursorPosition(10, 15);
+	Console::Write("*");
+	Console::SetCursorPosition(10, 16);
+	Console::Write("*");
+
+	/* Right Arm */
+	Console::SetCursorPosition(9, 13);
+	Console::Write("*");
+	Console::SetCursorPosition(8, 13);
+	Console::Write("*");
+	Console::SetCursorPosition(7, 14);
+	Console::Write("*");
+
+	/* Left Arm */
+	Console::SetCursorPosition(11, 13);
+	Console::Write("*");
+	Console::SetCursorPosition(12, 13);
+	Console::Write("*");
+	Console::SetCursorPosition(13, 14);
+	Console::Write("*");
+
+	/* Right Leg */
+	Console::SetCursorPosition(9, 17);
+	Console::Write("*");
+	Console::SetCursorPosition(8, 18);
+	Console::Write("*");
+	Console::SetCursorPosition(7, 19);
+	Console::Write("*");
+	Console::SetCursorPosition(6, 19);
+	Console::Write("*");
+
+	/* Left Leg */
+	Console::SetCursorPosition(11, 17);
+	Console::Write("*");
+	Console::SetCursorPosition(12, 18);
+	Console::Write("*");
+	Console::SetCursorPosition(13, 19);
+	Console::Write("*");
+	Console::SetCursorPosition(14, 19);
+	Console::Write("*");
+
+	Console::ReadLine();
+}
