@@ -1,0 +1,10 @@
+#include "stdafx.h"
+using namespace System;
+
+void main()
+{
+	Console::Clear();
+	Console::SetCursorPosition(5, 5);
+	Console::Write("*");
+	Console::ReadLine();
+}
